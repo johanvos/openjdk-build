@@ -21,4 +21,4 @@ git init
 git checkout -b root-commit || exit 1
 git remote add github git@github.com:johanvos/openjfx-jdk.git
 cd - || exit 1
-bash add-branch-jfx.sh openjfx/jfx-dev/rt
+bash add-branch-without-modules.sh openjfx/jfx-dev/rt
